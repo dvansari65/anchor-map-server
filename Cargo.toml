@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 # MCP SDK
-rmcp = { version = "0.1", features = ["server", "client", "macros", "transport-io"] }
+rmcp = "0.8.5"
 
 
 # Async runtime

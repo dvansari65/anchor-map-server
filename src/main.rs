@@ -4,6 +4,8 @@ use rmcp::model::{Implementation, ProtocolVersion, ServerCapabilities, ServerInf
 use tracing::{info,debug,error};
 use tracing_subscriber::{layer::SubscriberExt,util::SubscriberInitExt};
 
+mod tools;
+mod types;
 
 #[tokio::main]
 async fn main(){
